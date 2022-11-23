@@ -71,7 +71,8 @@ export default function TabTwoScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E8EAED',
+    backgroundColor: '#ffffff',
+    borderColor: '#000000',
   },
 
   tasksWrapper: {
@@ -80,7 +81,7 @@ const styles = StyleSheet.create({
   },
 
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
   },
 
@@ -94,15 +95,15 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 
   input: {
     paddingVertical: 10,
     paddingHorizontal: 15,
-    backgroundColor: '#FFF',
+    backgroundColor: '#ffffff',
     borderRadius: 60,
-    borderColor: '#C0C0C0',
+    borderColor: '#000000',
     borderWidth: 1,
     width: 250,
   },
@@ -110,11 +111,11 @@ const styles = StyleSheet.create({
   addWrapper: {
     width: 60,
     height: 60,
-    backgroundColor: '#FFF',
+    backgroundColor: '#ffffff',
     borderRadius: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    borderColor: '#C0C0C0',
+    borderColor: '#000000',
     borderWidth: 1,
   },
 

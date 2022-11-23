@@ -16,13 +16,16 @@ const Task = (props) => {
 
 const styles = StyleSheet.create({
     item: {
-        backgroundColor: '#FFF',
-        padding: 15,
+        backgroundColor: '#ebebeb',
+        padding: 10,
         borderRadius: 10,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 20,
+        borderWidth: 0.5,
+        borderColor: '#000000',
+        opacity: 0.8,
     },
 
     itemLeft: {
@@ -32,24 +35,24 @@ const styles = StyleSheet.create({
     },
 
     square: {
-        width: 24,
-        height: 24,
-        backgroundColor: '#55BCF6',
-        opacity: 0.4,
+        width: 20,
+        height: 20,
+        backgroundColor: '#ff3de8',
+        opacity: 0.5,
         borderRadius: 5,
-        marginRight: 15,
+        marginRight: 10,
     },
 
     itemText: {
-        maxWidth: '80%',
+        maxWidth: '75%',
     },
 
     circular: {
-        width: 12,
-        height: 12,
-        borderColor: '#55BCF6',
-        borderWidth: 2,
-        borderRadius: 5,
+        width: 14,
+        height: 14,
+        borderColor: '#47ceff',
+        borderWidth: 2.5,
+        borderRadius: 10,
     },
 });
 
